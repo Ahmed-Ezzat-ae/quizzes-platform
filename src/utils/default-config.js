@@ -1,5 +1,5 @@
 import axios from 'axios';
-axios.defaults.baseURL = '/https://quiz-creation-platform-api.vercel.app/api';
+axios.defaults.baseURL = 'https://quiz-creation-platform-api.vercel.app/api/';
 
 function isLoginPage(url) {
   return url.endsWith('/signin') || url.endsWith('/signup');
