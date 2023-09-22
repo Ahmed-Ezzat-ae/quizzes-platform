@@ -1,0 +1,19 @@
+
+.question {
+    background: #f9f9f9;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 25px;
+    margin-bottom: 0;
+    color: var(--main-color);
+}
+
+.submitBtn{
+    width: 150px;
+}
